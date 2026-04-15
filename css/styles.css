@@ -122,10 +122,13 @@ body{
   object-fit:contain;
 }
 
-.seccion{
+/* 👇 AQUÍ ESTÁ EL CAMBIO: Ahora es .section en vez de .seccion */
+.section{
   padding:50px 25px;
   background:#f7f7f7;
   border-top:1px solid #ddd;
+  /* 👇 ESTE ES EL NUEVO CÓDIGO PARA QUE NO SE TAPE EL TÍTULO */
+  scroll-margin-top: 120px;
 }
 
 .card{
@@ -233,4 +236,5 @@ body{
   .grid{
     grid-template-columns:1fr;
   }
-  }
+}
+
